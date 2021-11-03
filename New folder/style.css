@@ -1,0 +1,35 @@
+body{
+    background-color:yellow;
+}
+#clearCanvas{
+    margin: 250px;
+}
+canvas{
+    border:5px solid blue red;
+    border-radius: 5px;
+    animation-name: example;
+    animation-duration: 4s;  
+    margin-top: 5px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 5px 5px 30px cyan;
+    }
+    to{
+        box-shadow: 5px 5px 30px orangered;
+    }
+}
+p{
+    padding-top: 10px;
+    font-size: 30px 30px;
+}
+#timer{
+    float:right;
+    font-size: 30px;
+}
+#score{
+    float:left;
+    font-size: 30px;
+
+}
